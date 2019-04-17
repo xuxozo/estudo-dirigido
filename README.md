@@ -1,2 +1,2 @@
 # estudo-dirigido
-lista python 
+#lista python 
