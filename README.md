@@ -1,0 +1,2 @@
+# estudo-dirigido
+lista python 
