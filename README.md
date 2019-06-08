@@ -1,3 +1,47 @@
-# estudo-dirigido
-#lista python 
+Lucas Lisboa
+
+1. Faça Um Programa em Python que aceite o raio de um círculo do usuário e
+calcule a área.
+
+import math
+
+raio = float(input("Digite o raio do circulo: "))
+print(  )
+
+area_circulo = ((math.pi)*raio**2)
+
+print("a area do circulo é: ", area_circulo)
+##################################################################################
+
+2. F.U.P. que calcule o valor de um coxinha, dado que o usuário vai pedir mais de
+uma.
+
+quant= int(input("Cada coxinha custa R$ 3,50, Digite a quantidade desejada:"))
+
+preço= (quant* 3.5)
+
+print("O valor total é:",preço)
+##################################################################################
+3. F.U.P. que calcule o tempo de utilização de um patinete elétrico. Você deve
+saber que existe uma taxa de utilização que permite ao usuário utilizar o patinete
+por 10 minutos que é de R$5,00. Passando disso o preço é acrescido de 20% por
+minuto. Ao final da utilização deve ser mostrado ao usuário o quanto deve pagar
+pela utlização.
+
+print("Locadora de patinetes")
+
+tempo=float(input("Digite o tempo utilizado:"))
+
+if tempo <=10:
+
+    print("O valor é R$5,00")
+
+else:
+    excedente= float((tempo-10)*(5*20/100))
+    total=excedente+5
+    print("O valor total é:",total )
+    ##################################################################################
+
+4. F.U.P. que peça um número inteiro e determine se ele é ou não um número primo.
+Um número primo é aquele que é divisível somente por ele mesmo e por 1.
 
