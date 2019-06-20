@@ -44,4 +44,15 @@ else:
 
 4. F.U.P. que peça um número inteiro e determine se ele é ou não um número primo.
 Um número primo é aquele que é divisível somente por ele mesmo e por 1.
+while True:
+   num = int(input("Digite 000 para sair ou digite um número para verificação:"))
+   if num % 2 == 1:
+       print("primo")
+   elif num==2:
+       print("é primo")
+   else:
+       print("não primo")
+   if num==000:
+       print("interrompendo a calculadora")
+       break
 
